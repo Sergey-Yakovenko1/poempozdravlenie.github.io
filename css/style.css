@@ -1,0 +1,199 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	max-width: 100%;
+	height: 100%;
+	background: rgb(208, 142, 199);
+    background: -webkit-linear-gradient(0deg, rgb(208, 142, 199) 0%, rgb(215, 238, 248) 100%);
+    background: -o-linear-gradient(0deg, rgb(208, 142, 199) 0%, rgb(215, 238, 248) 100%);
+    background: -ms-linear-gradient(0deg, rgb(208, 142, 199) 0%, rgb(215, 238, 248) 100%);
+    background: linear-gradient(0deg, rgb(208, 142, 199) 0%, rgb(215, 238, 248) 100%);
+	padding-bottom: 35px;
+	font-family: 'Charm', cursive;
+}
+
+body a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	padding-top: 75px;
+}
+
+header p {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+header span {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+header span:before {
+	content: "# ";
+}
+
+.top-menu {
+	width: 90%;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.top-menu ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.top-menu ul li {
+	width: 20%;
+	list-style: none;
+}
+
+.top-menu a {
+	color: #fff;
+	text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+	letter-spacing: 2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: background-color .3s linear;
+	border-radius: 2px;
+	font-size: 17px;
+}
+
+.top-menu a, .lists_poem a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.top-menu a:hover {
+	background-color: rgb(208, 142, 199);
+}
+
+.top-menu a:active {
+	font-size: 16px
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 5px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.sidebar {
+	width: 30%;
+	padding-top: 7px;
+}
+
+.sidebar h3 {
+	padding-left: 15%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background: rgb(215, 238, 248);
+	border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+	width: 70%;
+}
+
+.content h2 {
+	text-align: center;
+}
+
+.lists_poem li {
+	list-style: none;
+	width: 100%;
+	border-bottom: 1px solid black;
+	
+}
+
+.lists_poem a {
+	background-color: #F0F4F5;
+	transition: padding-left .3s linear;
+	color: #13096D;
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+.lists_poem a:hover {
+	background-color: rgb(208, 142, 199);
+	padding-left: 25px;
+}
+
+.lists_poem a:active {
+	color: #13096D;
+	font-size: 15px;
+
+}
+
+.poem {
+	max-width: 285px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.poem_title {
+	padding-left: 35%;
+	font-size: 22px;
+}
+
+.copybtn {
+	color: #fff;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 12%;
+	background-color: green;
+	border-radius: 25px;
+	padding: 10px 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+}
+
+.copybtn:hover {
+	cursor: pointer;
+	background-color: #076C22;
+}
+
+.copybtn:active {
+	box-shadow: inset 0px 1px 12px 2px #2FBF56;
+}	
